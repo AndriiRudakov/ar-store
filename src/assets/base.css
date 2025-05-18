@@ -20,6 +20,7 @@
   --vt-c-text-dark-1: var(--vt-c-white);
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
   --gradient-background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(90, 12, 145, 1) 100%);
+  --nav-items-background: rgba(84, 87, 151, 0.3);
 }
 
 /* semantic color variables for this project */
