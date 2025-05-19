@@ -17,7 +17,7 @@ onMounted(async () => {
 })
 
 function getImageUrl(slug: string) {
-  return `../images/${slug}.png`
+  return `${import.meta.env.BASE_URL}images/${slug}.png`
 }
 </script>
 
@@ -43,7 +43,7 @@ function getImageUrl(slug: string) {
   .product-item {
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: space-between;
     flex-direction: column;
     text-decoration: none;
     gap: 10px;
